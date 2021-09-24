@@ -1,6 +1,6 @@
 # Vitailse
 
-Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/)
+Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) for building admin dashboard
 
 Inspired by [Vitesse](https://github.com/antfu/vitesse)
 
