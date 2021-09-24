@@ -65,3 +65,21 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse)
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
   - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
   - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - IDE support for Tailwind CSS
+## Try it now!
+
+### GitHub Template
+
+[Create a repo from this template on GitHub](https://github.com/zynth17/vitailse/generate).
+
+## Checklist
+
+When you use this template, try follow the checklist to update your info properly
+
+- [ ] Rename `name` field in `package.json`
+- [ ] Change the author name in `LICENSE`
+- [ ] Change the title in `App.vue`
+- [ ] Change the favicon in `public`
+- [ ] Remove the `.github` folder which contains the funding info
+- [ ] Clean up the READMEs and remove routes
+
+And, enjoy :)
