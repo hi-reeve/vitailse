@@ -8,6 +8,8 @@ declare module 'vue' {
     AppHeader: typeof import('C:/REEVE/projects/vitailse/src/components/AppHeader.vue')['default']
     AppSidebar: typeof import('C:/REEVE/projects/vitailse/src/components/AppSidebar.vue')['default']
     'IconAkarIcons:githubFill': typeof import('~icons/akar-icons/github-fill')['default']
+    'IconCi:hamburger': typeof import('~icons/ci/hamburger')['default']
+    'IconIconParkOutline:hamburgerButton': typeof import('~icons/icon-park-outline/hamburger-button')['default']
   }
 }
 
