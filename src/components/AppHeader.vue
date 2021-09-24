@@ -16,6 +16,11 @@
 				</button>
 			</div>
 			<div class="font-bold ml-5">App Header</div>
+			<div class="ml-auto">
+				<a href="https://github.com/zynth17/vitailse">
+					<icon-akar-icons:github-fill />
+				</a>
+			</div>
 		</nav>
 	</header>
 </template>
