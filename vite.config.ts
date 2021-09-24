@@ -19,7 +19,9 @@ export default defineConfig({
 				}),
 			],
 		}),
-		Icons(),
+		Icons({
+			compiler: 'vue3',
+		}),
 		AutoImport({
 			dts: true,
 			// targets to transform
