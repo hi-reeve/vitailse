@@ -1,36 +1,54 @@
 {
-  "name": "starter",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
-  },
-  "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.1",
-    "@tailwindcss/forms": "^0.3.3",
-    "@tailwindcss/typography": "^0.4.1",
-    "@types/node": "^16.9.6",
-    "@vueuse/components": "^6.4.1",
-    "@vueuse/core": "^6.4.1",
-    "@vueuse/head": "^0.6.0",
-    "autoprefixer": "^10.3.5",
-    "pinia": "^2.0.0-rc.9",
-    "postcss": "^8.3.7",
-    "tailwindcss": "^2.2.15",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.11"
-  },
-  "devDependencies": {
-    "@iconify/json": "^1.1.405",
-    "@vitejs/plugin-vue": "^1.9.0",
-    "typescript": "^4.4.3",
-    "unplugin-auto-import": "^0.4.6",
-    "unplugin-icons": "^0.11.3",
-    "unplugin-vue-components": "^0.15.3",
-    "vite": "^2.5.10",
-    "vite-plugin-pages": "^0.18.1",
-    "vite-plugin-vue-layouts": "^0.5.0",
-    "vue-tsc": "^0.3.0"
-  }
+	"name": "@zynth/vitailse",
+	"description": "Vite starter template with TailwindCSS",
+	"version": "0.1.0",
+	"main": "src/main.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zynth17/vitailse.git"
+	},
+	"keywords": [
+		"vitailse",
+		"tailwindcss",
+		"vite",
+		"vitesse"
+	],
+	"author": "Christopher Reeeve",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zynth17/vitailse/issues"
+	},
+	"homepage": "https://github.com/zynth17/vitailse#readme",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc --noEmit && vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.2.1",
+		"@tailwindcss/forms": "^0.3.3",
+		"@tailwindcss/typography": "^0.4.1",
+		"@types/node": "^16.9.6",
+		"@vueuse/components": "^6.4.1",
+		"@vueuse/core": "^6.4.1",
+		"@vueuse/head": "^0.6.0",
+		"autoprefixer": "^10.3.5",
+		"pinia": "^2.0.0-rc.9",
+		"postcss": "^8.3.7",
+		"tailwindcss": "^2.2.15",
+		"vue": "^3.2.13",
+		"vue-router": "^4.0.11"
+	},
+	"devDependencies": {
+		"@iconify/json": "^1.1.405",
+		"@vitejs/plugin-vue": "^1.9.0",
+		"typescript": "^4.4.3",
+		"unplugin-auto-import": "^0.4.6",
+		"unplugin-icons": "^0.11.3",
+		"unplugin-vue-components": "^0.15.3",
+		"vite": "^2.5.10",
+		"vite-plugin-pages": "^0.18.1",
+		"vite-plugin-vue-layouts": "^0.5.0",
+		"vue-tsc": "^0.3.0"
+	}
 }
