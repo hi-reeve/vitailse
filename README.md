@@ -71,6 +71,16 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse)
 
 [Create a repo from this template on GitHub](https://github.com/zynth17/vitailse/generate).
 
+### Clone to local
+
+If you prefer to do it manually with the cleaner git history
+
+```bash
+npx degit zynth17/vitailse my-vitailse-app
+cd my-vitailse-app
+pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```
+
 ## Checklist
 
 When you use this template, try follow the checklist to update your info properly
