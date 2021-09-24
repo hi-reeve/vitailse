@@ -17,6 +17,7 @@
 					>TailwindCSS</a
 				>
 			</p>
+			<p class="text-center ">Please give stars and report any issues on our <a class="text-blue-500 hover:underline" href="https://github.com/zynth17/vitailse">Github Repo</a></p>
 		</div>
 	</div>
 </template>
