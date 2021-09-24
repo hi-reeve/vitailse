@@ -3,5 +3,5 @@
 </script>
 
 <template>
-	<div></div>
+	<div>Index</div>
 </template>

@@ -5,6 +5,8 @@
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('C:/REEVE/works/nostratech/national-hospital/starter/src/components/AppFooter.vue')['default']
+    AppHeader: typeof import('C:/REEVE/works/nostratech/national-hospital/starter/src/components/AppHeader.vue')['default']
+    AppNavbar: typeof import('C:/REEVE/works/nostratech/national-hospital/starter/src/components/AppNavbar.vue')['default']
     AppSidebar: typeof import('C:/REEVE/works/nostratech/national-hospital/starter/src/components/AppSidebar.vue')['default']
   }
 }

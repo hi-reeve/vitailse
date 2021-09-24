@@ -1,7 +1,14 @@
 <template>
-	<main>
+	<header>
+		<app-header />
+	</header>
+	<aside>
 		<app-sidebar />
-			<router-view />
-		<app-footer />
+	</aside>
+	<main>
+		<router-view />
 	</main>
+	<footer>
+		<app-footer />
+	</footer>
 </template>
