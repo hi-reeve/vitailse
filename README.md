@@ -1,4 +1,4 @@
-# Vitailse
+[](public/Vitailse-logos.jpeg)
 
 Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) for building admin dashboard
 
