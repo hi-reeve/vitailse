@@ -1,8 +1,11 @@
 <script setup lang="ts">
+	import { useStore } from '@/store';
 	import VitailseLogo from '../../public/Vitailse-logos.jpeg';
 	useHead({
 		title: 'Vitailse Dashboard',
 	});
+
+	const store = useStore();
 </script>
 
 <template>
@@ -26,6 +29,14 @@
 					>Github Repo</a
 				>
 			</p>
+			<div class="mt-5 text-center">
+				<button
+					@click="store.$state.count++"
+					class="px-4 py-2 bg-blue-500 text-white rounded"
+				>
+					Count : {{ store.$state.count }}
+				</button>
+			</div>
 		</div>
 	</div>
 </template>
