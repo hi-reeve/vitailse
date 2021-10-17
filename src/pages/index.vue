@@ -1,6 +1,6 @@
 <script setup lang="ts">
 	import { useStore } from '@/store';
-	import VitailseLogo from '../../public/Vitailse-logos.jpeg';
+	import VitailseLogo from '/Vitailse-logos.jpeg';
 	useHead({
 		title: 'Vitailse Dashboard',
 	});

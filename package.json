@@ -21,7 +21,7 @@
 	"homepage": "https://github.com/zynth17/vitailse#readme",
 	"scripts": {
 		"dev": "vite",
-		"build": "vue-tsc --noEmit && vite build",
+		"build": "vite-ssg build",
 		"serve": "vite preview"
 	},
 	"dependencies": {
@@ -44,6 +44,7 @@
 		"@vitejs/plugin-vue": "^1.9.2",
 		"@vue/compiler-sfc": "^3.2.20",
 		"@vue/server-renderer": "^3.2.20",
+		"critters": "^0.0.10",
 		"typescript": "^4.4.3",
 		"unplugin-auto-import": "^0.4.10",
 		"unplugin-icons": "^0.11.4",

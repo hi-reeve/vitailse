@@ -18,7 +18,6 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse)
 
 - 📑 [Layout system](./src/layouts)
 
-
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 
 - 😃 [Use icons from any icon sets, with no compromise](https://github.com/antfu/unplugin-icons)
@@ -26,6 +25,10 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse)
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
+
+- 🖨 Server-side generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
+  
+- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
 
 - 🦾 TypeScript, of course
 
