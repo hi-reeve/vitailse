@@ -2,7 +2,7 @@
   <img src='https://user-images.githubusercontent.com/45350572/135600562-433fc8f6-f17e-48e4-ba5d-02347812c277.jpeg' alt='Vitailse - Opinionated Vite Starter Template with TailwindCSS' width='300'/>
 </p>
 
-Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) for building admin dashboard
+Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) 
 
 Inspired by [Vitesse](https://github.com/antfu/vitesse)
 
