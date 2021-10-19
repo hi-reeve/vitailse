@@ -13,8 +13,7 @@
 		<div>
 			<img :src="VitailseLogo" width="300" class="mx-auto" />
 			<p class="mt-5">
-				Welcome to Vitailse, Vite starter template for building an admin
-				template from scratch with
+				Welcome to Vitailse, Vite starter template with
 				<a
 					href="https://tailwindcss.com/"
 					class="text-blue-500 hover:underline"
