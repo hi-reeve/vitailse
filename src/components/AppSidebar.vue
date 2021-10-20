@@ -23,7 +23,7 @@
 			'translate-x-0 w-60 p-8 opacity-100': show,
 		}"
 	>
-		<div class="font-bold text-2xl">App Title</div>
+		<div class="font-bold text-2xl">{{ $t('app.title') }}</div>
 		<div class="flex flex-col mt-10">
 			<router-link
 				class="
@@ -38,7 +38,7 @@
 					my-1
 				"
 				to="/"
-				>Dashboard</router-link
+				>{{ $t('pages.dashboard') }}</router-link
 			>
 
 			<router-link
@@ -54,7 +54,7 @@
 					my-1
 				"
 				to="/other-page"
-				>Other Page</router-link
+				>{{ $t('pages.other.menu') }}</router-link
 			>
 		</div>
 	</aside>

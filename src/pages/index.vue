@@ -6,6 +6,7 @@
 	});
 
 	const store = useStore();
+	const { t } = useI18n();
 </script>
 
 <template>
@@ -13,7 +14,7 @@
 		<div>
 			<img :src="VitailseLogo" width="300" class="mx-auto" />
 			<p class="mt-5">
-				Welcome to Vitailse, Vite starter template with
+				{{ t('intro.desc') }}
 				<a
 					href="https://tailwindcss.com/"
 					class="text-blue-500 hover:underline"
@@ -21,7 +22,7 @@
 				>
 			</p>
 			<p class="text-center">
-				Please give stars and report any issues on our
+				{{ t('intro.github') }}
 				<a
 					class="text-blue-500 hover:underline"
 					href="https://github.com/zynth17/vitailse"

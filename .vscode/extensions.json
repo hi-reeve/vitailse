@@ -5,6 +5,7 @@
 		"antfu.iconify",
 		"dbaeumer.vscode-eslint",
 		"bradlc.vscode-tailwindcss",
-		"csstools.postcss"
+		"csstools.postcss",
+		"lokalise.i18n-ally"
 	]
 }

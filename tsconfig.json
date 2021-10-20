@@ -18,7 +18,9 @@
 			"vite/client",
 			"vite-plugin-pages/client",
 			"vite-plugin-vue-layouts/client",
-			"unplugin-icons/types/vue"
+			"unplugin-icons/types/vue",
+			"vite-plugin-pwa/client",
+			"@intlify/vite-plugin-vue-i18n/client"
 		]
 	},
 	"include": [

@@ -2,10 +2,11 @@
 	useHead({
 		title: 'Other Pages',
 	});
+	const { t } = useI18n({useScope : 'global'});
 </script>
 
 <template>
-	<div>An example of other pages</div>
+	<div>{{ t('pages.other.desc') }}</div>
 </template>
 
 <style scoped></style>
