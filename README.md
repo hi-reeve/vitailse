@@ -118,7 +118,7 @@ Just run and visit http://localhost:3000
 pnpm dev
 ```
 
-### Development in Https
+### Preview in Https
 
 Just run and visit https://localhost
 
