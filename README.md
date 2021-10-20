@@ -18,6 +18,10 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
 
 - 📑 [Layout system](./src/layouts)
 
+- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
+
+- 🌍 [I18n ready](./locales)
+
 - 🎨 [Tailwind CSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
 
 - 😃 [Use icons from any icon sets, with no compromise](https://github.com/antfu/unplugin-icons)
