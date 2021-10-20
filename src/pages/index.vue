@@ -37,11 +37,17 @@
 				</button>
 			</div>
 		</div>
-			<router-link
-				:to="{ name: 'other-page' }"
-				class=" mt-5 text-center hover:text-gray-200 dark:hover:text-gray-500 hover:underline"
-				>Other Pages</router-link
-			>
+		<router-link
+			:to="{ name: 'other-page' }"
+			class="
+				mt-5
+				text-center
+				hover:text-gray-200
+				dark:hover:text-gray-500
+				hover:underline
+			"
+			>{{ $t('pages.other.menu') }}</router-link
+		>
 	</div>
 </template>
 

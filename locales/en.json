@@ -1,6 +1,6 @@
 {
 	"pages": {
-		"dashboard": "Dashboard",
+		"home": "Home",
 		"other": {
 			"menu": "Other Page",
 			"desc": "An example of other pages"
@@ -8,8 +8,7 @@
 		"not-found": "Page not found"
 	},
 	"app": {
-		"header": "App Header",
-		"title": "App Title",
+		"header": "App Title",
 		"offline": "App ready to work offline",
 		"new-content": "New content available, click on reload button to update."
 	},
