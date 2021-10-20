@@ -15,20 +15,11 @@
 	);
 </script>
 <template>
-	<div class="flex">
-		<app-sidebar :show="sidebarVisible" />
-		<div
-			class="transition-all ease-in-out duration-300"
-			:class="{
-				'w-[calc(100vw-240px)]': sidebarVisible,
-				'w-full': !sidebarVisible,
-			}"
-		>
-			<app-header @toggle-sidebar="sidebarVisible = !sidebarVisible" />
+	<header>
+		<app-header />
+	</header>
 
-			<main class="p-8">
-				<router-view />
-			</main>
-		</div>
-	</div>
+	<main class="p-8 dark:bg-gray-800 dark:text-white bg-white text-gray-800 min-h-screen">
+		<router-view />
+	</main>
 </template>

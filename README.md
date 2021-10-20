@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/45350572/135600562-433fc8f6-f17e-48e4-ba5d-02347812c277.jpeg' alt='Vitailse - Opinionated Vite Starter Template with TailwindCSS' width='300'/>
+  <img src='https://user-images.githubusercontent.com/45350572/138070856-731c849a-466b-41a2-b39d-c5b5e76e94fa.png' alt='Vitailse - Opinionated Vite Starter Template with TailwindCSS' width='300'/>
 </p>
 
 Opinionated Vite starter template with [TailwindCSS](https://tailwindcss.com/) 

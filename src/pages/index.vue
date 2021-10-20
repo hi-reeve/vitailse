@@ -1,20 +1,19 @@
 <script setup lang="ts">
 	import { useStore } from '@/store';
-	import VitailseLogo from '/Vitailse-logos.jpeg';
+	import VitailseLogo from '@/assets/logo.png';
 	useHead({
 		title: 'Vitailse Dashboard',
 	});
 
 	const store = useStore();
-	const { t } = useI18n();
 </script>
 
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
 		<div>
 			<img :src="VitailseLogo" width="300" class="mx-auto" />
-			<p class="mt-5">
-				{{ t('intro.desc') }}
+			<p class="lg:text-left text-center">
+				{{ $t('intro.desc') }}
 				<a
 					href="https://tailwindcss.com/"
 					class="text-blue-500 hover:underline"
@@ -22,7 +21,7 @@
 				>
 			</p>
 			<p class="text-center">
-				{{ t('intro.github') }}
+				{{ $t('intro.github') }}
 				<a
 					class="text-blue-500 hover:underline"
 					href="https://github.com/zynth17/vitailse"
@@ -38,5 +37,14 @@
 				</button>
 			</div>
 		</div>
+			<router-link
+				:to="{ name: 'other-page' }"
+				class=" mt-5 text-center hover:text-gray-200 dark:hover:text-gray-500 hover:underline"
+				>Other Pages</router-link
+			>
 	</div>
 </template>
+
+<route lang="yaml">
+name: home
+</route>

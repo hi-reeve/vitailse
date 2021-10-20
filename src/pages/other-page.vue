@@ -2,11 +2,21 @@
 	useHead({
 		title: 'Other Pages',
 	});
-	const { t } = useI18n({useScope : 'global'});
 </script>
 
 <template>
-	<div>{{ t('pages.other.desc') }}</div>
+	<div >
+		<p>{{ $t('pages.other.desc') }}</p>
+		<router-link
+			:to="{ name: 'home' }"
+			class="mt-5 hover:text-gray-200 dark:hover:text-gray-500 hover:underline"
+			>Home</router-link
+		>
+	</div>
 </template>
 
 <style scoped></style>
+
+<route lang="yaml">
+name: other-page
+</route>

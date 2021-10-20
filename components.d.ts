@@ -4,9 +4,11 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
-    AppFooter: typeof import('C:/REEVE/projects/vitailse/src/components/AppFooter.vue')['default'];
+    AppFooter: typeof import('C:/REEVE/projects/vitailse/src/components/AppFooter.vue')['default']
     AppHeader: typeof import('C:/REEVE/projects/vitailse/src/components/AppHeader.vue')['default']
     AppSidebar: typeof import('C:/REEVE/projects/vitailse/src/components/AppSidebar.vue')['default']
+    'Icon:bx:bxMoon': typeof import('~icons/bx/bx-moon')['default']
+    'Icon:bx:bxsMoon': typeof import('~icons/bx/bxs-moon')['default']
     'IconAkarIcons:githubFill': typeof import('~icons/akar-icons/github-fill')['default']
     'IconCi:hamburger': typeof import('~icons/ci/hamburger')['default'];
     'IconIconParkOutline:hamburgerButton': typeof import('~icons/icon-park-outline/hamburger-button')['default']
