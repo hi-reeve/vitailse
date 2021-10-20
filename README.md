@@ -60,6 +60,9 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 - [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
+- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
+  - [`vite-plugin-vue-i18n`](https://github.com/intlify/vite-plugin-vue-i18n) - Vite plugin for Vue I18n
+- [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
 
 ### Coding Style
 
@@ -69,13 +72,15 @@ Inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
+- [`vite-ssg`](https://github.com/antfu/vite-ssg) - Server-side generation
+  - [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
 - [VS Code Extensions](./.vscode/extensions.json)
   - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
   - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
   - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - IDE support for Tailwind CSS
+  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - All in one i18n support
 ## Try it now!
-
 ### GitHub Template
 
 [Create a repo from this template on GitHub](https://github.com/zynth17/vitailse/generate).
@@ -111,6 +116,14 @@ Just run and visit http://localhost:3000
 
 ```bash
 pnpm dev
+```
+
+### Development in Https
+
+Just run and visit https://localhost
+
+```bash
+pnpm build && pnpm run https-preview
 ```
 
 ### Build
