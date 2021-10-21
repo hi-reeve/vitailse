@@ -6,6 +6,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('C:/REEVE/projects/vitailse/src/components/AppFooter.vue')['default']
     AppHeader: typeof import('C:/REEVE/projects/vitailse/src/components/AppHeader.vue')['default']
+    'AppHeader copy': typeof import('C:/REEVE/projects/vitailse/src/components/AppHeader copy.vue')['default']
     AppSidebar: typeof import('C:/REEVE/projects/vitailse/src/components/AppSidebar.vue')['default']
     'Icon:bx:bxMoon': typeof import('~icons/bx/bx-moon')['default']
     'Icon:bx:bxsMoon': typeof import('~icons/bx/bxs-moon')['default']
