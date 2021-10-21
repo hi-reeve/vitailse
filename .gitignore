@@ -6,3 +6,4 @@ dist-ssr
 .*-debug.log
 *.log
 .vercel
+.vite-ssg-temp
