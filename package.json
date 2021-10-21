@@ -1,64 +1,64 @@
 {
-  "name": "@zynth/vitailse",
-  "description": "Vite starter template with TailwindCSS",
-  "version": "0.1.0",
-  "main": "src/main.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zynth17/vitailse.git"
-  },
-  "keywords": [
-    "vitailse",
-    "tailwindcss",
-    "vite",
-    "vitesse"
-  ],
-  "author": "Christopher Reeeve",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zynth17/vitailse/issues"
-  },
-  "homepage": "https://github.com/zynth17/vitailse#readme",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite-ssg build",
-    "serve": "vite preview",
-    "https-preview": "serve dist"
-  },
-  "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.2.1",
-    "@tailwindcss/forms": "^0.3.4",
-    "@tailwindcss/typography": "^0.4.1",
-    "@types/node": "^16.10.2",
-    "@vueuse/components": "^6.5.3",
-    "@vueuse/core": "^6.5.3",
-    "@vueuse/head": "^0.5.1",
-    "autoprefixer": "^10.3.6",
-    "pinia": "^2.0.0-rc.10",
-    "postcss": "^8.3.8",
-    "tailwindcss": "^2.2.16",
-    "vue": "^3.2.19",
-    "vue-i18n": "^9.1.9",
-    "vue-router": "^4.0.11"
-  },
-  "devDependencies": {
-    "@iconify/json": "^1.1.408",
-    "@intlify/vite-plugin-vue-i18n": "^2.4.0",
-    "@vitejs/plugin-vue": "^1.9.2",
-    "@vue/compiler-sfc": "^3.2.20",
-    "@vue/server-renderer": "^3.2.20",
-    "critters": "^0.0.10",
-    "https-localhost": "^4.7.0",
-    "typescript": "^4.4.3",
-    "unplugin-auto-import": "^0.4.10",
-    "unplugin-icons": "^0.11.4",
-    "unplugin-vue-components": "^0.15.6",
-    "vite": "^2.6.2",
-    "vite-plugin-pages": "^0.18.1",
-    "vite-plugin-pwa": "^0.11.3",
-    "vite-plugin-vue-layouts": "^0.5.0",
-    "vite-ssg": "^0.15.4",
-    "vue-tsc": "^0.3.0",
-    "workbox-window": "^6.3.0"
-  }
+	"name": "@zynth/vitailse",
+	"description": "Vite starter template with TailwindCSS",
+	"version": "0.1.0",
+	"main": "src/main.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zynth17/vitailse.git"
+	},
+	"keywords": [
+		"vitailse",
+		"tailwindcss",
+		"vite",
+		"vitesse"
+	],
+	"author": "Christopher Reeeve",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zynth17/vitailse/issues"
+	},
+	"homepage": "https://github.com/zynth17/vitailse#readme",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite-ssg build",
+		"serve": "vite preview",
+		"https-preview": "serve dist"
+	},
+	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.2.1",
+		"@tailwindcss/forms": "^0.3.4",
+		"@tailwindcss/typography": "^0.4.1",
+		"@types/node": "^16.10.2",
+		"@vueuse/components": "^6.5.3",
+		"@vueuse/core": "^6.5.3",
+		"@vueuse/head": "^0.6.0",
+		"autoprefixer": "^10.3.6",
+		"pinia": "^2.0.0-rc.10",
+		"postcss": "^8.3.8",
+		"tailwindcss": "^2.2.16",
+		"vue": "^3.2.19",
+		"vue-i18n": "^9.1.9",
+		"vue-router": "^4.0.11"
+	},
+	"devDependencies": {
+		"@iconify/json": "^1.1.408",
+		"@intlify/vite-plugin-vue-i18n": "^2.4.0",
+		"@vitejs/plugin-vue": "^1.9.2",
+		"@vue/compiler-sfc": "^3.2.20",
+		"@vue/server-renderer": "^3.2.20",
+		"critters": "^0.0.10",
+		"https-localhost": "^4.7.0",
+		"typescript": "^4.4.3",
+		"unplugin-auto-import": "^0.4.10",
+		"unplugin-icons": "^0.11.4",
+		"unplugin-vue-components": "^0.15.6",
+		"vite": "^2.6.2",
+		"vite-plugin-pages": "^0.18.1",
+		"vite-plugin-pwa": "^0.11.3",
+		"vite-plugin-vue-layouts": "^0.5.0",
+		"vite-ssg": "^0.15.4",
+		"vue-tsc": "^0.3.0",
+		"workbox-window": "^6.3.0"
+	}
 }
