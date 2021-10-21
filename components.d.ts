@@ -13,7 +13,6 @@ declare module 'vue' {
     'IconAkarIcons:githubFill': typeof import('~icons/akar-icons/github-fill')['default']
     'IconCi:hamburger': typeof import('~icons/ci/hamburger')['default'];
     'IconIconParkOutline:hamburgerButton': typeof import('~icons/icon-park-outline/hamburger-button')['default']
-    PeriodicUpdate: typeof import('C:/REEVE/projects/vitailse/src/components/PeriodicUpdate.vue')['default']
   }
 }
 

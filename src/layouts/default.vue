@@ -15,5 +15,4 @@
 	>
 		<router-view />
 	</main>
-	<periodic-update />
 </template>
