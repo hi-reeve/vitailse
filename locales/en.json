@@ -8,7 +8,6 @@
 		"not-found": "Page not found"
 	},
 	"app": {
-		"header": "App Title",
 		"offline": "App ready to work offline",
 		"new-content": "New content available, click on reload button to update."
 	},
