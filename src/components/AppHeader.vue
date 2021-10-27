@@ -46,7 +46,7 @@
 			"
 		>
 			<router-link :to="{ name: 'home' }">
-				<div class="font-bold lg:text-xl md:text-lg text-md">{{ $t('app.header') }}</div>
+				<div class="font-bold lg:text-xl md:text-lg text-md">Vitailse</div>
 			</router-link>
 			<div class="ml-auto flex items-center h-full">
 				<select
