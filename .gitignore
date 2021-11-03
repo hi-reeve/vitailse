@@ -7,3 +7,4 @@ dist-ssr
 *.log
 .vercel
 .vite-ssg-temp
+.idea
