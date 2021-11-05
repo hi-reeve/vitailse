@@ -27,6 +27,7 @@ specifiers:
   vite-plugin-pages: ^0.18.1
   vite-plugin-pwa: ^0.11.3
   vite-plugin-vue-layouts: ^0.5.0
+  vite-plugin-vue-type-imports: ^0.0.2
   vite-ssg: ^0.15.4
   vue: ^3.2.19
   vue-i18n: ^9.2.0-beta.14
@@ -66,6 +67,7 @@ devDependencies:
   vite-plugin-pages: 0.18.1_db4376ce209585cb999d6c71fd1bde93
   vite-plugin-pwa: 0.11.3_vite@2.6.2
   vite-plugin-vue-layouts: 0.5.0_6fefd338bdc4d4908b5e45f949de2b2f
+  vite-plugin-vue-type-imports: 0.0.2_vite@2.6.2+vue@3.2.20
   vite-ssg: 0.15.4_1c38bbd3f5a7ae96b3c4cef3cb20c471
   vue-tsc: 0.3.0_typescript@4.4.3
   workbox-window: 6.3.0
@@ -1478,6 +1480,10 @@ packages:
 
   /@types/estree/0.0.39:
     resolution: {integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==}
+    dev: true
+
+  /@types/json5/0.0.29:
+    resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
   /@types/node/16.10.2:
@@ -3449,6 +3455,13 @@ packages:
     resolution: {integrity: sha512-TYfxx36xfl52Rf1LU9HyWSLGPdYLL+SQ8/E/0yVyKG8wCCDaSrhPap0vEdlsZWRaS6tnKKLPGiEJGiREVC8kxQ==}
     dev: true
 
+  /json5/1.0.1:
+    resolution: {integrity: sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.5
+    dev: true
+
   /json5/2.2.0:
     resolution: {integrity: sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==}
     engines: {node: '>=6'}
@@ -4570,6 +4583,11 @@ packages:
       ansi-regex: 5.0.1
     dev: true
 
+  /strip-bom/3.0.0:
+    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    engines: {node: '>=4'}
+    dev: true
+
   /strip-comments/2.0.1:
     resolution: {integrity: sha512-ZprKx+bBLXv067WTCALv8SSz5l2+XhpYCsVtSqlMnkAXMWDq+/ekVbl1ghqP9rUHTzv6sm/DwCOiYutU/yp1fw==}
     engines: {node: '>=10'}
@@ -4716,6 +4734,15 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       punycode: 2.1.1
+    dev: true
+
+  /tsconfig-paths/3.11.0:
+    resolution: {integrity: sha512-7ecdYDnIdmv639mmDwslG6KQg1Z9STTz1j7Gcz0xa+nshh/gKDAHcPxRbWOsA3SPp0tXP2leTcY9Kw+NAkfZzA==}
+    dependencies:
+      '@types/json5': 0.0.29
+      json5: 1.0.1
+      minimist: 1.2.5
+      strip-bom: 3.0.0
     dev: true
 
   /type-check/0.3.2:
@@ -5026,6 +5053,19 @@ packages:
       vue-router: 4.0.11_vue@3.2.20
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /vite-plugin-vue-type-imports/0.0.2_vite@2.6.2+vue@3.2.20:
+    resolution: {integrity: sha512-sRVMIZvrVTX5RJrI8Eu67V34cMgWPtBOD7eW6rs8VY26+Oyx3tN8XOFWc6FPsrIdSJ19Nv0CkO8iLUfAktaGZQ==}
+    peerDependencies:
+      vite: ^2.6.13
+      vue: ^3.2.20
+    dependencies:
+      '@vue/compiler-sfc': 3.2.20
+      fast-glob: 3.2.7
+      tsconfig-paths: 3.11.0
+      vite: 2.6.2
+      vue: 3.2.20
     dev: true
 
   /vite-ssg/0.15.4_1c38bbd3f5a7ae96b3c4cef3cb20c471:
