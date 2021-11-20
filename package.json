@@ -34,7 +34,7 @@
 		"@vueuse/core": "^6.5.3",
 		"@vueuse/head": "^0.6.0",
 		"autoprefixer": "^10.3.6",
-		"pinia": "^2.0.0-rc.10",
+		"pinia": "^2.0.4",
 		"postcss": "^8.3.8",
 		"tailwindcss": "^2.2.16",
 		"vue": "^3.2.19",
