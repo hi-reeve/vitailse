@@ -1,4 +1,5 @@
-<script setup lang='ts'>import { Props } from '@/types/HelloWorld';
+<script setup lang='ts'>
+import { Props } from '@/types/HelloWorld';
 
 withDefaults(defineProps<Props>(),{
 	msg : 'Hello World'

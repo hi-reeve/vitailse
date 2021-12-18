@@ -16,7 +16,7 @@ specifiers:
   autoprefixer: ^10.3.6
   critters: ^0.0.10
   https-localhost: ^4.7.0
-  pinia: ^2.0.0-rc.10
+  pinia: ^2.0.4
   postcss: ^8.3.8
   tailwindcss: ^2.2.16
   typescript: ^4.4.3
@@ -27,7 +27,7 @@ specifiers:
   vite-plugin-pages: ^0.18.1
   vite-plugin-pwa: ^0.11.3
   vite-plugin-vue-layouts: ^0.5.0
-  vite-plugin-vue-type-imports: ^0.0.2
+  vite-plugin-vue-type-imports: ^0.0.3
   vite-ssg: ^0.15.4
   vue: ^3.2.19
   vue-i18n: ^9.2.0-beta.14
@@ -44,7 +44,7 @@ dependencies:
   '@vueuse/core': 6.5.3_vue@3.2.20
   '@vueuse/head': 0.6.0_vue@3.2.20
   autoprefixer: 10.3.6_postcss@8.3.8
-  pinia: 2.0.0-rc.10_typescript@4.4.3+vue@3.2.20
+  pinia: 2.0.4_typescript@4.4.3+vue@3.2.20
   postcss: 8.3.8
   tailwindcss: 2.2.16_d90402d1bb3b165c9c83046beac13a8b
   vue: 3.2.20
@@ -67,7 +67,7 @@ devDependencies:
   vite-plugin-pages: 0.18.1_db4376ce209585cb999d6c71fd1bde93
   vite-plugin-pwa: 0.11.3_vite@2.6.2
   vite-plugin-vue-layouts: 0.5.0_6fefd338bdc4d4908b5e45f949de2b2f
-  vite-plugin-vue-type-imports: 0.0.2_vite@2.6.2+vue@3.2.20
+  vite-plugin-vue-type-imports: 0.0.3_vite@2.6.2+vue@3.2.20
   vite-ssg: 0.15.4_1c38bbd3f5a7ae96b3c4cef3cb20c471
   vue-tsc: 0.3.0_typescript@4.4.3
   workbox-window: 6.3.0
@@ -1604,6 +1604,10 @@ packages:
 
   /@vue/devtools-api/6.0.0-beta.18:
     resolution: {integrity: sha512-56vRhO7nXWWFYTx520BQSDlQH5VYpwy62hFDEqi2yHHEBpEqseOP5WYQusq7BEW3DXSY9E9cfPVR5CFtJbKuMg==}
+    dev: false
+
+  /@vue/devtools-api/6.0.0-beta.20.1:
+    resolution: {integrity: sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q==}
     dev: false
 
   /@vue/reactivity/3.2.19:
@@ -3885,11 +3889,11 @@ packages:
     resolution: {integrity: sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==}
     engines: {node: '>=8.6'}
 
-  /pinia/2.0.0-rc.10_typescript@4.4.3+vue@3.2.20:
-    resolution: {integrity: sha512-WY0KQoHxSBylhGc6aBQKPFfAupYHWpI1QBQKJSyK9btwwMTVQpwCdePgPho+ZoEMl832jb7RwfI5TN1srV5VEA==}
+  /pinia/2.0.4_typescript@4.4.3+vue@3.2.20:
+    resolution: {integrity: sha512-nAc2f9HmOcBbWRlnGDuBGedM1G6uFAR10FnJWP1/dgm1I2tM5jbgKL/3IgynP4mBnPCy//ky7g0WpCZl5Mmxsg==}
     peerDependencies:
-      '@vue/composition-api': ^1.2.2
-      typescript: ^4.4.3
+      '@vue/composition-api': ^1.4.0
+      typescript: ^4.4.4
       vue: ^2.6.14 || ^3.2.0
     peerDependenciesMeta:
       '@vue/composition-api':
@@ -3897,7 +3901,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@vue/devtools-api': 6.0.0-beta.18
+      '@vue/devtools-api': 6.0.0-beta.20.1
       typescript: 4.4.3
       vue: 3.2.20
       vue-demi: 0.11.4_vue@3.2.20
@@ -5055,8 +5059,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-vue-type-imports/0.0.2_vite@2.6.2+vue@3.2.20:
-    resolution: {integrity: sha512-sRVMIZvrVTX5RJrI8Eu67V34cMgWPtBOD7eW6rs8VY26+Oyx3tN8XOFWc6FPsrIdSJ19Nv0CkO8iLUfAktaGZQ==}
+  /vite-plugin-vue-type-imports/0.0.3_vite@2.6.2+vue@3.2.20:
+    resolution: {integrity: sha512-SCshzMVh5wU6PwnQ/so5tWYM74DEJirH3LHlk6XeAzooWD3b3fBKqssZFc/xs+s3k44fvFc7+sc3IGTeV+PHyw==}
     peerDependencies:
       vite: ^2.6.13
       vue: ^3.2.20
