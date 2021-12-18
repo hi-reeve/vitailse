@@ -6,6 +6,7 @@
 	});
 
 	const store = useStore();
+	const { t } = useI18n();
 </script>
 
 <template>
@@ -13,7 +14,7 @@
 		<div>
 			<img :src="VitailseLogo" width="300" class="mx-auto" />
 			<p class="lg:text-left text-center">
-				{{ $t('intro.desc') }}
+				{{ t('intro.desc') }}
 				<a
 					href="https://tailwindcss.com/"
 					class="text-blue-500 hover:underline"
@@ -21,7 +22,7 @@
 				>
 			</p>
 			<p class="text-center">
-				{{ $t('intro.github') }}
+				{{ t('intro.github') }}
 				<a
 					class="text-blue-500 hover:underline"
 					href="https://github.com/zynth17/vitailse"
@@ -31,7 +32,14 @@
 			<div class="mt-5 text-center">
 				<button
 					@click="store.$state.count++"
-					class="px-4 py-2 bg-blue-500 text-white rounded"
+					class="
+						px-4
+						py-2
+						dark:bg-blue-800
+						bg-blue-500
+						text-white
+						rounded
+					"
 				>
 					Count : {{ store.$state.count }}
 				</button>
@@ -46,7 +54,7 @@
 				dark:hover:text-gray-500
 				hover:underline
 			"
-			>{{ $t('pages.other.menu') }}</router-link
+			>{{ t('pages.other.menu') }}</router-link
 		>
 	</div>
 </template>
