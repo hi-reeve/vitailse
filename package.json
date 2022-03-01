@@ -47,7 +47,7 @@
 		"@vitejs/plugin-vue": "^2.2.0",
 		"@vue/compiler-sfc": "^3.2.31",
 		"@vue/server-renderer": "^3.2.31",
-		"critters": "^0.0.10",
+		"critters": "^0.0.16",
 		"https-localhost": "^4.7.1",
 		"typescript": "^4.5.5",
 		"unplugin-auto-import": "^0.6.0",
