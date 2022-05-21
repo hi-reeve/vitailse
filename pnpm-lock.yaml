@@ -32,6 +32,7 @@ specifiers:
   vue-i18n: ^9.2.0-beta.30
   vue-router: ^4.0.12
   vue-tsc: ^0.34.15
+  workbox-window: ^6.5.3
 
 dependencies:
   '@tailwindcss/aspect-ratio': 0.4.0_tailwindcss@3.0.23
@@ -48,6 +49,7 @@ dependencies:
   vue: 3.2.31
   vue-i18n: 9.2.0-beta.30_vue@3.2.31
   vue-router: 4.0.12_vue@3.2.31
+  workbox-window: 6.5.3
 
 devDependencies:
   '@iconify/json': 2.1.3
@@ -1520,7 +1522,6 @@ packages:
 
   /@types/trusted-types/2.0.2:
     resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
-    dev: true
 
   /@vitejs/plugin-vue/2.2.0_vite@2.8.4+vue@3.2.31:
     resolution: {integrity: sha512-wXigM1EwN2G7rZcwG6kLk9ivvIMhx2363tCEvMBiXcTu5nePM/12hUPVzPb83Uugt6U+zom1gTpJopi/Ow/jwg==}
@@ -5072,7 +5073,6 @@ packages:
 
   /workbox-core/6.5.3:
     resolution: {integrity: sha512-Bb9ey5n/M9x+l3fBTlLpHt9ASTzgSGj6vxni7pY72ilB/Pb3XtN+cZ9yueboVhD5+9cNQrC9n/E1fSrqWsUz7Q==}
-    dev: true
 
   /workbox-expiration/6.5.3:
     resolution: {integrity: sha512-jzYopYR1zD04ZMdlbn/R2Ik6ixiXbi15c9iX5H8CTi6RPDz7uhvMLZPKEndZTpfgmUk8mdmT9Vx/AhbuCl5Sqw==}
@@ -5149,7 +5149,6 @@ packages:
     dependencies:
       '@types/trusted-types': 2.0.2
       workbox-core: 6.5.3
-    dev: true
 
   /wrap-ansi/7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
