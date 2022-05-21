@@ -7,6 +7,7 @@ updates:
     interval: daily
     time: '00:00'
   open-pull-requests-limit: 10
+  rebase-strategy: "disabled"
   reviewers:
     - zynth17
   assignees:
@@ -22,6 +23,7 @@ updates:
     interval: daily
     time: '00:00'
   open-pull-requests-limit: 10
+  rebase-strategy: "disabled"
   reviewers:
     - zynth17
   assignees:
