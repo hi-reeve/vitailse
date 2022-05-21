@@ -10,4 +10,6 @@ export const createApp = ViteSSG(App, { routes }, async ctx => {
 	Object.values(import.meta.globEager('./modules/*.ts')).map(i =>
 		i.install?.(ctx)
 	);
+}, {
+	
 });
