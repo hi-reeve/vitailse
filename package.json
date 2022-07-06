@@ -29,7 +29,7 @@
 		"@tailwindcss/aspect-ratio": "^0.4.0",
 		"@tailwindcss/forms": "^0.5.2",
 		"@tailwindcss/typography": "^0.5.2",
-		"@types/node": "^17.0.18",
+		"@types/node": "^18.0.2",
 		"@vueuse/components": "^8.5.0",
 		"@vueuse/core": "^8.5.0",
 		"@vueuse/head": "^0.7.5",
