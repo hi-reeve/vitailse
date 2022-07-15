@@ -16,7 +16,6 @@
 		},
 		"types": [
 			"vite/client",
-			"vite-plugin-pages/client",
 			"vite-plugin-vue-layouts/client",
 			"unplugin-icons/types/vue",
 			"vite-plugin-pwa/client",
@@ -29,6 +28,7 @@
 		"src/**/*.tsx",
 		"src/**/*.vue",
 		"components.d.ts",
-		"auto-imports.d.ts"
+		"auto-imports.d.ts",
+		"typed-router.d.ts"
 	]
 }

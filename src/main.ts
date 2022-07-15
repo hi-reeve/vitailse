@@ -1,15 +1,22 @@
 import App from '@/App.vue';
 import { ViteSSG } from 'vite-ssg';
-import { setupLayouts } from 'virtual:generated-layouts';
-import generatedRoutes from 'virtual:generated-pages';
+
 import '@/styles/index.css';
+import { ViteSetupModule } from './types/ViteSetupModule';
+import { router } from '@/modules/router';
+import { RouteRecordRaw } from '@vue-router';
 
-const routes = setupLayouts(generatedRoutes);
-
-export const createApp = ViteSSG(App, { routes }, async ctx => {
-	Object.values(import.meta.globEager('./modules/*.ts')).map(i =>
-		i.install?.(ctx)
-	);
-}, {
-	
-});
+export const createApp = ViteSSG(
+	App,
+	{
+		routes: router.getRoutes() as RouteRecordRaw[],
+	},
+	async ctx => {
+		Object.values(
+			import.meta.glob<{ install: ViteSetupModule }>('./modules/*.ts', {
+				eager: true,
+			})
+		).map(i => i.install?.(ctx));
+	},
+	{}
+);

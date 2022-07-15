@@ -5,14 +5,20 @@ import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import Icons from 'unplugin-icons/vite';
 import IconsResolver from 'unplugin-icons/resolver';
-import Pages from 'vite-plugin-pages';
 import Layouts from 'vite-plugin-vue-layouts';
 import { VitePWA } from 'vite-plugin-pwa';
 import VueI18n from '@intlify/vite-plugin-vue-i18n';
+
+import VueRouter from 'unplugin-vue-router/vite';
+import { VueRouterExports } from 'unplugin-vue-router';
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
 		vue(),
+		VueRouter({
+			dts: true,
+			routesFolder: 'src/pages',
+		}),
 		Components({
 			dts: true,
 			resolvers: [
@@ -36,7 +42,7 @@ export default defineConfig({
 			imports: [
 				// presets
 				'vue',
-				'vue-router',
+				{ '@vue-router': VueRouterExports },
 				'vue-i18n',
 				'@vueuse/core',
 				'@vueuse/head',
@@ -47,7 +53,6 @@ export default defineConfig({
 			// see https://github.com/antfu/unplugin-auto-import/pull/23/
 			resolvers: [],
 		}),
-		Pages(),
 		Layouts(),
 		VitePWA({
 			includeAssets: [
@@ -100,12 +105,23 @@ export default defineConfig({
 	},
 	optimizeDeps: {
 		include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head'],
-		exclude: ['vue-demi'],
 	},
 	// @ts-ignore
 	ssgOptions: {
 		script: 'async',
 		formatting: 'minify',
-		format : 'cjs'
+		format: 'cjs',
+	},
+	// https://github.com/vitest-dev/vitest
+	test: {
+		include: ['src/__test__/**/*.test.ts','src/__test__/**/*.spec.ts'],
+		environment: 'jsdom',
+		deps: {
+			inline: ['@vue', '@vueuse', 'vue-demi'],
+		},
+	},
+	ssr: {
+		// TODO: workaround until they support native ESM
+		noExternal: ['workbox-window', /vue-i18n/],
 	},
 });
