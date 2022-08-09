@@ -3,14 +3,12 @@ import { ViteSSG } from 'vite-ssg';
 
 import '@/styles/index.css';
 import { ViteSetupModule } from './types/ViteSetupModule';
-import { router } from '@/modules/router';
-import { RouteRecordRaw } from '@vue-router';
+import { routes } from '@/router';
+
 
 export const createApp = ViteSSG(
 	App,
-	{
-		routes: router.getRoutes() as RouteRecordRaw[],
-	},
+	{ routes },
 	async ctx => {
 		Object.values(
 			import.meta.glob<{ install: ViteSetupModule }>('./modules/*.ts', {

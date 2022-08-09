@@ -8,7 +8,7 @@ import IconsResolver from 'unplugin-icons/resolver';
 import Layouts from 'vite-plugin-vue-layouts';
 import { VitePWA } from 'vite-plugin-pwa';
 import VueI18n from '@intlify/vite-plugin-vue-i18n';
-
+import generateSitemap from 'vite-ssg-sitemap';
 import VueRouter from 'unplugin-vue-router/vite';
 import { VueRouterExports } from 'unplugin-vue-router';
 // https://vitejs.dev/config/
@@ -111,10 +111,13 @@ export default defineConfig({
 		script: 'async',
 		formatting: 'minify',
 		format: 'cjs',
+		onFinished() {
+			generateSitemap();
+		},
 	},
 	// https://github.com/vitest-dev/vitest
 	test: {
-		include: ['src/__test__/**/*.test.ts','src/__test__/**/*.spec.ts'],
+		include: ['src/__test__/**/*.test.ts', 'src/__test__/**/*.spec.ts'],
 		environment: 'jsdom',
 		deps: {
 			inline: ['@vue', '@vueuse', 'vue-demi'],
