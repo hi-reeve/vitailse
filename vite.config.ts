@@ -114,6 +114,7 @@ export default defineConfig({
 		onFinished() {
 			generateSitemap();
 		},
+		mock: true
 	},
 	// https://github.com/vitest-dev/vitest
 	test: {
