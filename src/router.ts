@@ -7,7 +7,7 @@ import {
 import { setupLayouts } from 'virtual:generated-layouts';
 export let extendedRoutes: any = null;
 export const router = createRouter({
-	history: process.env.SSR ? createMemoryHistory() : createWebHistory(),
+	history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
 	// You don't need to pass the routes anymore,
 	// the plugin writes it for you 🤖
 	extendRoutes: routes => {
