@@ -45,7 +45,7 @@
 	},
 	"devDependencies": {
 		"@iconify/json": "^2.1.78",
-		"@intlify/vite-plugin-vue-i18n": "^5.0.0",
+		"@intlify/vite-plugin-vue-i18n": "^7.0.0",
 		"@vitejs/plugin-vue": "^3.0.0",
 		"@vue/compiler-sfc": "^3.2.37",
 		"@vue/server-renderer": "^3.2.37",
