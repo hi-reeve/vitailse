@@ -62,7 +62,7 @@
 		"vite-plugin-vue-type-imports": "^0.2.0",
 		"vite-ssg": "^0.20.2",
 		"vite-ssg-sitemap": "^0.3.2",
-		"vitest": "^0.18.0",
+		"vitest": "^0.27.0",
 		"vue-tsc": "^0.38.5"
 	}
 }
