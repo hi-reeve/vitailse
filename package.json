@@ -31,7 +31,7 @@
 		"@tailwindcss/typography": "^0.5.4",
 		"@types/node": "^18.0.4",
 		"@vueuse/components": "^8.9.3",
-		"@vueuse/core": "^8.9.3",
+		"@vueuse/core": "^9.11.0",
 		"@vueuse/head": "^0.7.6",
 		"autoprefixer": "^10.4.7",
 		"pinia": "^2.0.16",
